@@ -1,0 +1,40 @@
+{
+  "name": "prom-api",
+  "version": "0.1.0",
+  "description": "Promise based api framework for node.js.",
+  "main": "framework/index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shawnostler/prom-api.git"
+  },
+  "author": "Shawn Ostler",
+  "bugs": {
+    "url": "https://github.com/shawnostler/prom-api/issues"
+  },
+  "homepage": "https://github.com/shawnostler/prom-api",
+  "dependencies": {
+    "aws-sdk": "^2.0.0-rc.14",
+    "bcrypt": "^0.7.8",
+    "bluebird": "^2.1.3",
+    "body-parser": "^1.0.2",
+    "bunyan": "^0.23.1",
+    "dtrace-provider": "^0.2.8",
+    "expect.js": "^0.3.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-istanbul-coverage": "0.0.5",
+    "measured": "^0.1.6",
+    "moment": "^2.7.0",
+    "mysql": "^2.3.0",
+    "node-mysql": "^0.3.7",
+    "numbers": "^0.4.0",
+    "object-merge": "^2.5.1",
+    "parseurl": "^1.0.1",
+    "qs": "^0.6.6",
+    "raw-body": "^1.1.6",
+    "supertest": "^0.12.1"
+  }
+}
