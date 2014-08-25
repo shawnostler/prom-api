@@ -61,7 +61,10 @@ describe('Framework.Form',function () {
 			
 			try {
 				
-				expect(exception).to.be.eql({content: '{"errors":{"id":"Required"}}'});
+				expect(exception).to.be.eql({
+					statusCode: 400,
+					content: '{"id":"Required"}'
+				});
 				
 				done();
 				

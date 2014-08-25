@@ -1,9 +1,7 @@
-var base = process.env.PWD;
-
 var rawbody = require('raw-body');
 
-var Plugin = require(base+'/framework/plugin');
-var Promise = require(base+'/framework/promise');
+var Plugin = require('../plugin');
+var Promise = require('../promise');
 
 function ParseBody(config) {
 	

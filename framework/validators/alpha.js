@@ -1,4 +1,3 @@
-
 var RegexValidator = require('./regex');
 
 function AlphaValidator(config) {

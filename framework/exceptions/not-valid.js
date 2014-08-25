@@ -1,10 +1,14 @@
 function NotValidException(config) {
 	
-	this.content = JSON.stringify(config);
+	this.statusCode = config.statusCode || 400;
+	this.content = 'Not Valid';
+	
+	if (config.content) {
+		
+		this.content = JSON.stringify(config.content);
+		
+	}
 	
 }
-
-NotValidException.prototype.statusCode = 400;
-NotValidException.prototype.content = 'Not Valid';
 
 module.exports = NotValidException;

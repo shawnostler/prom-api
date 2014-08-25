@@ -1,7 +1,5 @@
-var base = process.env.PWD;
-
-var Controller = require(base+'/framework/controller');
-var Promise = require(base+'/framework/promise');
+var Controller = require('../controller');
+var Promise = require('../promise');
 
 function OptionsController(config) {
 	

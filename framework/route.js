@@ -1,5 +1,4 @@
-
-var Promise = require('bluebird');
+var Promise = require('./promise');
 
 function Route(path,controller) {
 	

@@ -1,6 +1,4 @@
-var base = process.env.PWD;
-
-var Controller = require(base+'/framework/controller');
+var Controller = require('../controller');
 
 function DeleteController(config) {
 	

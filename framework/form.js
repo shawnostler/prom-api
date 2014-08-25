@@ -47,7 +47,7 @@ Form.prototype.validate = function (data) {
 	}).catch(function (exception) {
 		
 		throw new Exceptions.NotValid({
-			errors: messages
+			content: messages
 		});
 		
 	});

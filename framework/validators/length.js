@@ -1,5 +1,5 @@
 
-var Promise = require('bluebird');
+var Promise = require('../promise');
 
 function LengthValidator(config) {
 	this.max = config.max;

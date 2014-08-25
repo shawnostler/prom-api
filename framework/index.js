@@ -13,6 +13,7 @@ module.exports.Mock = require('./mock');
 module.exports.Mocks = require('./mocks');
 module.exports.Model = require('./model');
 module.exports.MysqlAdapter = require('./mysql-adapter');
+module.exports.Plugin = require('./plugin');
 module.exports.Plugins = require('./plugins');
 module.exports.Promise = require('./promise');
 module.exports.Resource = require('./resource');

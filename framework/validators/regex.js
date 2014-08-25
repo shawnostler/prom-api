@@ -1,5 +1,5 @@
 
-var Promise = require('bluebird');
+var Promise = require('../promise');
 
 function RegexValidator(config) {
 	this.message = config.message || 'Does Not Match';

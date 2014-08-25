@@ -1,10 +1,8 @@
-var base = process.env.PWD;
-
 var qs = require('qs');
 var url = require('url');
 
-var Plugin = require(base+'/framework/plugin');
-var Promise = require(base+'/framework/promise');
+var Plugin = require('../plugin');
+var Promise = require('../promise');
 
 function ParseUrl(config) {
 	
