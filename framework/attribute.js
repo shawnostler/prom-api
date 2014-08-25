@@ -1,8 +1,5 @@
-var base = process.env.PWD;
-
-var Promise = require('bluebird');
-
-var Validators = require(base+'/framework/validators');
+var Promise = require('./promise');
+var Validators = require('./validators');
 
 function Attribute(config) {
 	
@@ -31,8 +28,6 @@ Attribute.prototype.validate = function(value) {
 	var promises = [];
 	
 	if (undefined === value || null === value) {
-		
-		console.log('Attribute.validate',value);
 		
 		if (this.required) {
 			

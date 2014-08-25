@@ -1,5 +1,4 @@
-var Promise = require('bluebird');
-
+var Promise = require('./promise');
 var Exceptions = require('./exceptions');
 
 function Acl(config) {
